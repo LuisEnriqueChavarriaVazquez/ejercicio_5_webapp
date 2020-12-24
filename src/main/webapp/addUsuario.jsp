@@ -109,7 +109,7 @@
                         idUsuario = rs.getString(1);
                     }
 
-                    sta.executeUpdate("insert into usuario values('" + idUsuario + "','" + nombre + "', '" + paterno + "', '" + materno + "', '" + email + "', '" + alias + "')");
+                    sta.executeUpdate("insert into usuario values('" + idUsuario + "','" + nom + "', '" + paterno + "', '" + materno + "', '" + email + "', '" + alias + "')");
             
                     sta.close();
                     rs.close();
