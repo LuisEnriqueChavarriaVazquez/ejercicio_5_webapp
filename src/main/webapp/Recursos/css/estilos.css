@@ -1,0 +1,204 @@
+/*Para las fuentes*/
+
+@font-face {
+    font-family: 'robotoNormal';
+    src: URL('../fonts/Roboto-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'robotoGrueso';
+    src: URL('../fonts/Roboto-Black.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'robotoDelgado';
+    src: URL('../fonts/Roboto-Light.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: 'robotoDelgadoPlus';
+    src: URL('../fonts/Roboto-Thin.ttf') format('truetype');
+}
+
+.robotoNormal {
+    font-family: "robotoNormal";
+}
+
+.robotoGrueso {
+    font-family: "robotoGrueso";
+}
+
+.robotoDelgado {
+    font-family: "robotoDelgado";
+}
+
+.robotoDelgadoPlus {
+    font-family: "robotoDelgadoPlus";
+}
+
+/*Para el index*/
+
+
+.justificador {
+    width: 100%;
+}
+
+.buttonsMine {
+    width: 33%;
+}
+
+.btn-lateral-left {
+    border-radius: 100px 0 0 100px;
+}
+
+.btn-lateral-right {
+    border-radius: 0px 100px 100px 0px;
+}
+
+.radius-generator {
+    border-radius: 20px;
+}
+
+/*Formularios de log in
+//////////////////////
+//////////////////////*/
+
+.mainBox {
+    margin-top: 50px;
+    width: 100%;
+}
+
+.titleForm {
+    width: 100%;
+    height: 80px;
+    font-size: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.formularioUsuario {
+    padding: 30px 70px 30px 70px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+/* label focus color */
+.input-field input[type=email]:focus+label {
+    color: #fff !important;
+}
+
+/* label underline focus color */
+.input-field input[type=email]:focus {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important;
+}
+
+/* label focus color */
+.input-field input[type=password]:focus+label {
+    color: #fff !important;
+}
+
+/* label underline focus color */
+.input-field input[type=password]:focus {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important;
+}
+
+/* label focus color */
+.input-field input[type=text]:focus+label {
+    color: #fff !important;
+}
+
+/* label underline focus color */
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important;
+}
+
+/* label focus color */
+.input-field input[type=number]:focus+label {
+    color: #fff !important;
+}
+
+/* label underline focus color */
+.input-field input[type=number]:focus {
+    border-bottom: 1px solid #fff !important;
+    box-shadow: 0 1px 0 0 #fff !important;
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.btnEnvio {
+    width: 100%;
+    border-radius: 50px;
+}
+
+.containerEnvio {
+    margin: 150px 0 0 0;
+}
+
+.containerEnvioSign {
+    margin: 320px 0 0 0;
+}
+
+.more {
+    width: 100%;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+/*Tables*/
+
+.btnOptions{
+    width: 50px;
+}
+
+.topButton{
+    border-radius: 10px 0px 0 10px;
+}
+
+.bottomButton{
+    border-radius: 0 10px 10px 0;
+}
+
+.centeredOptions{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    padding: 20px 35px 20px 35px;
+}
+
+.columnasDespliegue{
+    padding: 20px 35px 20px 35px;
+}
+
+.centeredTextTitleTable{
+    text-align: center;
+}
+
+/*Card de vizualizacion*/
+
+.containerCardVer{
+    width: 100% !important;
+    padding: 50px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardVer{
+    width: 80%;
+}
+
