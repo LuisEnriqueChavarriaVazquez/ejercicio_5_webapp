@@ -16,7 +16,7 @@
 
     try {
         Class.forName("com.mysql.jdbc.Driver");
-        cnx = DriverManager.getConnection("jdbc:mysql://localhost/reportes?user=root&password=root");
+        cnx = DriverManager.getConnection("jdbc:mysql://us-cdbr-east-02.cleardb.com/heroku_c9e0d9166df15f8?user=b9c4fbb5b28bfe&password=fc9160a6");
         sta = cnx.createStatement();
         sta.executeUpdate("delete from usuario where idUsuario = '"+cod+"'");
         request.getRequestDispatcher("despliegueUsuarios.jsp").forward(request,response);
